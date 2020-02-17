@@ -1,10 +1,9 @@
 var express = require('express');
 var router = express.Router();
-const sql = require('mssql');
 var createError = require('http-errors');
-
-
-
+var express = require('express');
+var router = express.Router();
+const sql = require('mssql');
 
 const config = {
   user: '4DD_03',  //Vostro user name
